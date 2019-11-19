@@ -1,0 +1,43 @@
+1)-----------------------------------------------------------------------
+
+-starter_se.py
+
+Τύποι CPU-----> atomic, minor, hpi.     με default τον atomic.
+
+CPU freq---->4GHz
+
+Number of cores----->1
+
+RAM-----> DDR3 1600MHz 8x8 default
+
+Memory channels-----> default 2 channels
+
+Memory size------> 2 Gb defeault
+
+Cache line size------> 64 bytes
+
+Voltage and Clock for system compontents---------> 3.3V και 1Ghz
+
+
+2)-----------------------------------------------------------------------
+
+printscreeens
+
+config.json ειναι το ιδιο με το .ini απλα με json format
+
+
+3)-----------------------------------------------------------------------
+
+-inOrder CPUS βιβλιογραφικα
+
+
+a) Να παραθέσουμε τα stats.txt
+
+β)να δουμε τα αρχεια 
+
+γ)να δουμε τα αρχεια
+
+
+
+
+
