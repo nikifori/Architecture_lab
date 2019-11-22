@@ -107,7 +107,7 @@
      Σύμφωνα με τα αρχεία [MinorCPU DDR3](https://github.com/nikifori/Architecture_lab1/blob/master/Minor.txt) και [MinorCPU DDR4](https://github.com/nikifori/Architecture_lab1/blob/master/Minor_DDR4.txt) προκύπτει ότι :
      - **Παρατηρείται** μια πολύ **μικρή διαφορά** στα ticks περάτωσεις των δύο προσομοιώσεων με περισσότερα ticks να έχει η προσομοίωση με την μνήμη DDR3.Αυτό οφείλεται στο γεγονός ότι το πρόγραμμα που έχουμε γράψει είναι ένα πολύ απλό και μικρό πρόγραμμα με αποτέλεσμα το σύστημα που τρέχει αυτό το πρόγραμμα να αναγκάζεται πολύ λίγες φορές να χρησιμοποιήσει την **μνήμη RAM**.    
      
-- ### TimingSimpleCPU DDR3_1600_8x8 vs TimingSimpleCPU DDR4_2400_8x8      
+- ### TimingSimpleCPU DDR3_1600_8x8 vs TimingSimpleCPU DDR4_2400_8x8  
      Σύμφωνα με τα αρχεία [TimingSimpleCPU DDR3](https://github.com/nikifori/Architecture_lab1/blob/master/TimingSimple.txt) και [TimingSimpleCPU DDR4](https://github.com/nikifori/Architecture_lab1/blob/master/TimingSimple_DDR4.txt) προκύπτει ότι :  
      -
      
