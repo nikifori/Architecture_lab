@@ -30,6 +30,38 @@
   <b>CPU type</b>
 </p></h>
 
-![test](https://github.com/nikifori/Architecture_lab1/blob/master/Screenshot%20from%202019-11-19%2014-37-49.png)
-  
+![cputype](https://github.com/nikifori/Architecture_lab1/blob/master/Screenshot%20from%202019-11-19%2014-37-49.png)
+
+
+<h><p align='center'>
+  <b>Number of CPU's , CPU Frequency </b>
+</p></h>
+
+> Στο cpu cluster, έχει μόνο έναν cpu, με cpuid = 0.
+
+![cpyfreq](https://github.com/nikifori/Architecture_lab1/blob/master/Screenshot%20from%202019-11-19%2014-37-25.png)
+
+
+<h><p align='center'>
+  <b>Memory and Cache line size</b>
+</p></h>
+
+![memory](https://github.com/nikifori/Architecture_lab1/blob/master/Screenshot%20from%202019-11-19%2015-12-25.png)
+
+
+<h><p align='center'>
+  <b>Global Frequency</b>
+</p></h>
+
+![GlobalFrequency](https://github.com/nikifori/Architecture_lab1/blob/master/Screenshot%20from%202019-11-19%2014-33-33.png)
+
+
+<h><p align='center'>
+  <b>System's Volts</b>
+</p></h>
+
+![Volts](https://github.com/nikifori/Architecture_lab1/blob/master/Screenshot%20from%202019-11-19%2014-34-54.png)
+
+
+
 
