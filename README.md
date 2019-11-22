@@ -81,6 +81,26 @@
 - ### HPI (High-Performance In-order CPU)
      Χρησιμοποιεί ως **βάση του το MinorCPU** και είναι βασιμένο στην **ARM αρχιτεκτονική**. Το HPI CPU μοντέλο, είναι ρυθμισμένο, έτσι ώστε να αποτελέι την αναπαράσταση ενός **μοντέρνου in-order Armv8-A**. Έχει το ίδιο **4 σταδίων pipeline** με το MinorCPU. Διαθέτει **Interrupt Controller**, το οποίο επιτρέπει στο software, να δημιουργεί, να σβήνει και να ιεραρχεί(σε επίπεδο hardware) interrupts απο συγκεκριμένες πηγές, αλλά και να δημιουρεί interupts στο software. Επιπρόσθετα, έχει **Floating-Point και Data Processing Units**, τα οποία μπορούν να μοντελοποιηθούν απο στο στάδιο της εκτέλεσης του pipeline στο MinorCPU. Διαθέει **διαφορετικά instruction και data buses**, δηλαδή έχει instruction cache(ICache) και data cache (DCache). Άρα έχει ξεχωριστά instruction και data L1 buses, και κοινή L2 Cache. Τέλος, στο **Memory Management Unit**, μια πολύ σημαντική λειτουργία, είναι η δυνατότητα που δίνει στο σύστημα, να **τρέχει πολλαπλά ανεξάρτητα προγράμματα, στη δικιά τους virtual memory**, χωρίς να χρειάζεται να ξέρουν την πραγματική τους φυσική θέση στο hardware.
      
+<p align='center'><h2>
+  <b>Αποτελέσματα και Συμπεράσματα απο το δικό μας πρόγραμμα</b>
+</h2></p>
+
+Όλα τα benchmarks, τρέξανε για το ίδιο [πρόγραμμα](https://github.com/nikifori/Architecture_lab1/blob/master/Test_for.c), γραμμένο σε γλώσσα C
+
+- ### MinorCPU vs TimingSimpleCPU
+     Συμφωνα με τα στατιστικά αρχεία που προέκυψαν, για το [MinorCPU](https://github.com/nikifori/Architecture_lab1/blob/master/Minor.txt) και [TimingSimpleCPU](https://github.com/nikifori/Architecture_lab1/blob/master/TimingSimple.txt), προκύπτουν τα παρακάτω συμπεράσματα.
+     - Το μοντέλο του **MinorCPU**, περατώνει το προς προσομοίωση **πρόγραμμα πιο γρήγορα**, κάτι που είναι λογικό, καθώς διαθέτει 4 σταδίων pipeline, το οποίο, λέιπει απο το TimingSimple.
+     - Ο **Gem5**, τρέχει πιο γρήορα στο **TimingSimple**, καθώς είναι πιο **απλό μοντέλο**, απο το Minor.
+     
+     
+- ### MinorCPU 2GHz vs MinorCPU 4GHz
+     Συμφωνα με τα αρχεία [MinorCPU 2GHz](https://github.com/nikifori/Architecture_lab1/blob/master/Minor.txt) και [MinorCPU 4GHz](https://github.com/nikifori/Architecture_lab1/blob/master/Minor_4GHz.txt), προκύπει ότι :
+     - Το μοντέλο με τα **4GHz** τρέχει το πρόγραμμα σαφώς πιο **γρήγορα**
+     - Ο **Gem5** τρέχει την προσομοίωση σχεδόν στον **ίδιο χρόνο**, αφού πρόκειται για το ίδιο μοντέλο CPU, με την **ελάχιστη διαφορά** που παρατηρείται, να οφείλεται στη **διαφορά χρόνου ολοκλήρωσης** του μοντέλου **των 2ghz με αυτό των 4ghz** για το προς προσομοίωση πρόγραμμα.
+     
+- ### MinorCPU DDR3 vs MinorCPU DDR4
+     Σύμφωνα με τα αρχεία [MinorCPU DDR3](https://github.com/nikifori/Architecture_lab1/blob/master/Minor.txt) και [MinorCPU DDR4](https://github.com/nikifori/Architecture_lab1/blob/master/Minor_DDR4.txt) προκύπτει ότι :
+     - **Δεν παρατηρείται**, καμία σημαντική **διαφορά** στους χρόνους προσομοίωσης προγράμματος και συστήματος, αφού οι συχνότητες του συστήματος παραμένουν ίδεις. Η ελάχιστη διαφορά υπερ της DDR3 οφείλεται στο γεγονός πως έχει μικρότερο latency απο την DDR4, αλλά σε τιμές που δεν μας δίνουν σηματνική διαφορά.
      
      
      
