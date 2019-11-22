@@ -98,11 +98,18 @@
      - Το μοντέλο με τα **4GHz** τρέχει το πρόγραμμα σαφώς πιο **γρήγορα**
      - Ο **Gem5** τρέχει την προσομοίωση σχεδόν στον **ίδιο χρόνο**, αφού πρόκειται για το ίδιο μοντέλο CPU, με την **ελάχιστη διαφορά** που παρατηρείται, να οφείλεται στη **διαφορά χρόνου ολοκλήρωσης** του μοντέλου **των 2ghz με αυτό των 4ghz** για το προς προσομοίωση πρόγραμμα.    
      
-- ### TimingSimpleCPU 2GHz vs TimingSimpleCPU 4GHz
+- ### TimingSimpleCPU 2GHz vs TimingSimpleCPU 4GHz  
+     Σύμφωνα με τα αρχεία [TimingSimple 2GHz](https://github.com/nikifori/Architecture_lab1/blob/master/TimingSimple.txt) και [TimingSimple 4GHz](https://github.com/nikifori/Architecture_lab1/blob/master/TimingSimple_4GHz.txt), βλέπουμε ότι και εδώ:  
+     - Το μοντέλο με τα **4GHz** τρέχει το πρόγραμμα αρκετά πιο **γρήγορα**, καθώς χρειάζεται περίπου κατί παραπάνω απο τα μισά ticks της προσομοίωσης με τα **2GHz**
+     -Ο **Gem5** και εδώ τρέχει την προσομοίωση περίπου στον ίδιο χρόνο με διαφορά ενός κλάσματος του δευτερολέπτου για τον ίδιο λόγο με παραπάνω.
      
-- ### MinorCPU DDR3 vs MinorCPU DDR4
+- ### MinorCPU DDR3_1600_8x8 vs MinorCPU DDR4_2400_8x8
      Σύμφωνα με τα αρχεία [MinorCPU DDR3](https://github.com/nikifori/Architecture_lab1/blob/master/Minor.txt) και [MinorCPU DDR4](https://github.com/nikifori/Architecture_lab1/blob/master/Minor_DDR4.txt) προκύπτει ότι :
-     - **Παρατηρείται** μια πολύ **μικρή διαφορά** στα ticks περάτωσεις των δύο προσομοιώσεων με περισσότερα ticks να έχει η προσομοίωση με την μνήμη DDR3.Αυτό οφείλεται στο γεγονός ότι το πρόγραμμα που έχουμε γράψει είναι ένα πολύ απλό και μικρό πρόγραμμα με αποτέλεσμα το σύστημα που τρέχει αυτό το πρόγραμμα να αναγκάζεται πολύ λίγες φορές να χρησιμοποιήσει την **μνήμη RAM**.
+     - **Παρατηρείται** μια πολύ **μικρή διαφορά** στα ticks περάτωσεις των δύο προσομοιώσεων με περισσότερα ticks να έχει η προσομοίωση με την μνήμη DDR3.Αυτό οφείλεται στο γεγονός ότι το πρόγραμμα που έχουμε γράψει είναι ένα πολύ απλό και μικρό πρόγραμμα με αποτέλεσμα το σύστημα που τρέχει αυτό το πρόγραμμα να αναγκάζεται πολύ λίγες φορές να χρησιμοποιήσει την **μνήμη RAM**.    
+     
+- ### TimingSimpleCPU DDR3_1600_8x8 vs TimingSimpleCPU DDR4_2400_8x8    
+     Σύμφωνα με τα αρχεία [TimingSimpleCPU DDR3](https://github.com/nikifori/Architecture_lab1/blob/master/TimingSimple.txt) και [TimingSimpleCPU DDR4](https://github.com/nikifori/Architecture_lab1/blob/master/TimingSimple_DDR4.txt) προκύπτει ότι :  
+     -
      
      
      
