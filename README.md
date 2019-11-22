@@ -96,7 +96,9 @@
 - ### MinorCPU 2GHz vs MinorCPU 4GHz
      Συμφωνα με τα αρχεία [MinorCPU 2GHz](https://github.com/nikifori/Architecture_lab1/blob/master/Minor.txt) και [MinorCPU 4GHz](https://github.com/nikifori/Architecture_lab1/blob/master/Minor_4GHz.txt), προκύπει ότι :
      - Το μοντέλο με τα **4GHz** τρέχει το πρόγραμμα σαφώς πιο **γρήγορα**
-     - Ο **Gem5** τρέχει την προσομοίωση σχεδόν στον **ίδιο χρόνο**, αφού πρόκειται για το ίδιο μοντέλο CPU, με την **ελάχιστη διαφορά** που παρατηρείται, να οφείλεται στη **διαφορά χρόνου ολοκλήρωσης** του μοντέλου **των 2ghz με αυτό των 4ghz** για το προς προσομοίωση πρόγραμμα.
+     - Ο **Gem5** τρέχει την προσομοίωση σχεδόν στον **ίδιο χρόνο**, αφού πρόκειται για το ίδιο μοντέλο CPU, με την **ελάχιστη διαφορά** που παρατηρείται, να οφείλεται στη **διαφορά χρόνου ολοκλήρωσης** του μοντέλου **των 2ghz με αυτό των 4ghz** για το προς προσομοίωση πρόγραμμα.    
+     
+- ### TimingSimpleCPU 2GHz vs TimingSimpleCPU 4GHz
      
 - ### MinorCPU DDR3 vs MinorCPU DDR4
      Σύμφωνα με τα αρχεία [MinorCPU DDR3](https://github.com/nikifori/Architecture_lab1/blob/master/Minor.txt) και [MinorCPU DDR4](https://github.com/nikifori/Architecture_lab1/blob/master/Minor_DDR4.txt) προκύπτει ότι :
