@@ -109,7 +109,7 @@
      
 - ### TimingSimpleCPU DDR3_1600_8x8 vs TimingSimpleCPU DDR4_2400_8x8  
      Σύμφωνα με τα αρχεία [TimingSimpleCPU DDR3](https://github.com/nikifori/Architecture_lab1/blob/master/TimingSimple.txt) και [TimingSimpleCPU DDR4](https://github.com/nikifori/Architecture_lab1/blob/master/TimingSimple_DDR4.txt) προκύπτει ότι :  
-     -
+     
      
      
      
