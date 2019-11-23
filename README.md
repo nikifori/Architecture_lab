@@ -128,7 +128,7 @@
            
 ## Βιβλιογραφία  
 
-   - ### Arm Research Starter Kit: System Modeling using gem5 (Ashkan Tousi and Chuan Zhu July 2017)  
+   - ### Arm Research Starter Kit: System Modeling using gem5 (Ashkan Tousi and Chuan Zhu, July 2017)  
    - ### http://gem5.org/Main_Page
 
     
