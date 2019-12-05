@@ -33,7 +33,11 @@ config.json ειναι το ιδιο με το .ini απλα με json format
 
 a) Να παραθέσουμε τα stats.txt
 
+
 β)να δουμε τα αρχεια 
+
+
+cpu cycles, BPD RATE μόνο ο μινορ
 
 γ)να δουμε τα αρχεια
 
