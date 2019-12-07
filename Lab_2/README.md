@@ -46,7 +46,7 @@
 
 ![cacheline](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_2/Step1/Q1/Spacebzip/5.png)  
 
-* Για τα **429.mcf** , **456.hmmer**, **458.sjeng**, **470.lbm**  θα ισχύουν ακριβώς τα ίδια αποτελέσματα αφού τρέχουμε τα benchmarks με το ίδιο configuration script και με τις ίδιες παραμέτρους , **--cpu-type=MinorCPU, --caches, --l2cache** .
+* Για τα **429.mcf** , **456.hmmer**, **458.sjeng**, **470.lbm**  θα ισχύουν ακριβώς τα ίδια αποτελέσματα αφού τρέχουμε τα benchmarks με το ίδιο configuration script και με τις ίδιες παραμέτρους , **--cpu-type=MinorCPU, --caches, --l2cache**.
 
 
 
