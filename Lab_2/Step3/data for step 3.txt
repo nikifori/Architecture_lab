@@ -1,0 +1,144 @@
+specbzip
+
+l1d = 128;
+l1i = 16;
+l2 = 4096;
+l1dassoc = 2;
+l1iassoc = 2;
+l2assoc = 16;
+l1cost = 10;
+l2cost = 1;
+cacheline = 256;
+
+cost = 102144.761 
+
+l1d = 64;
+l1i = 16;
+l2 = 1024;
+l1dassoc = 2;
+l1iassoc = 2;
+l2assoc = 2;
+l1cost = 10;
+l2cost = 1;
+cacheline = 64;
+
+cost = 10727.945
+
+--------------------------------------------
+
+spechmmer
+
+l1d = 128;
+l1i = 128;
+l2 = 1024;
+l1dassoc = 8;
+l1iassoc = 8;
+l2assoc = 2;
+l1cost = 10;
+l2cost = 1;
+cacheline = 512;
+
+cost = 54204.354
+
+l1d = 32;
+l1i = 16;
+l2 = 1024;
+l1dassoc = 2;
+l1iassoc = 2;
+l2assoc = 2;
+l1cost = 10;
+l2cost = 1;
+cacheline = 32;
+
+cost = 7371.541
+
+------------------------------------------------
+
+speclibm
+
+l1d = 16;
+l1i = 16;
+l2 = 4096;
+l1dassoc = 2;
+l1iassoc = 2;
+l2assoc = 4;
+l1cost = 10;
+l2cost = 1;
+cacheline = 2048;
+
+cost = 65911.387
+
+l1d = 16;
+l1i = 16;
+l2 = 1024;
+l1dassoc = 2;
+l1iassoc = 2;
+l2assoc = 2;
+l1cost = 10;
+l2cost = 1;
+cacheline = 512;
+
+cost = 11857.203 
+
+----------------------------------------------------
+
+specmcf
+
+l1d = 64;
+l1i = 64;
+l2 = 4096;
+l1dassoc = 4;
+l1iassoc = 2;
+l2assoc = 8;
+l1cost = 10;
+l2cost = 1;
+cacheline = 512;
+
+cost = 31699.461
+
+l1d = 16;
+l1i = 32;
+l2 = 1024;
+l1dassoc = 2;
+l1iassoc = 2;
+l2assoc = 2;
+l1cost = 10;
+l2cost = 1;
+cacheline = 32;
+
+cost = 7371.541
+
+------------------------------------------------------
+
+spacejeng
+
+l1d = 128;
+l1i = 128;
+l2 = 4096;
+l1dassoc = 4;
+l1iassoc = 2;
+l2assoc = 8;
+l1cost = 10;
+l2cost = 1;
+cacheline = 2048;
+
+cost = 121654.081
+
+l1d = 16;
+l1i = 16;
+l2 = 1024;
+l1dassoc = 2;
+l1iassoc = 2;
+l2assoc = 2;
+l1cost = 10;
+l2cost = 1;
+cacheline = 512;
+
+cost = 11857.203
+
+
+
+
+
+
+
