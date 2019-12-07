@@ -31,12 +31,21 @@
 <h><p align='center'>
   <b>L1 data cache</b>
 </p></h>  
-![L1d]()  
+  
+![L1d](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_2/Step1/Q1/Spacebzip/4.png)
 
 <h><p align='center'>
   <b>L1 cache</b>
-</p></h>  
-![L2]()  
+</p></h>
+
+![L2](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_2/Step1/Q1/Spacebzip/3.png)  
+
+<h><p align='center'>
+  <b>Cache line</b>
+</p></h>
+
+![cacheline](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_2/Step1/Q1/Spacebzip/5.png)  
+
 
 
 
