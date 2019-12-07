@@ -35,7 +35,7 @@
 ![L1d](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_2/Step1/Q1/Spacebzip/4.png)
 
 <h><p align='center'>
-  <b>L1 cache</b>
+  <b>L2 cache</b>
 </p></h>
 
 ![L2](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_2/Step1/Q1/Spacebzip/3.png)  
