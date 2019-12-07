@@ -26,7 +26,7 @@
   <b>L1 instruction cache</b>
 </p></h>  
 
-![alt text](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_2/Step1/Q1/Spacebzip/2.png)
+![L1i](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_2/Step1/Q1/Spacebzip/2.png)
 
 <h><p align='center'>
   <b>L1 data cache</b>
