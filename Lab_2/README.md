@@ -7,7 +7,7 @@
 Τα **benchmarks** που χρησιμοποιήσαμε είναι τα εξής :  
   
   * **401.bzip2**
-  * **429mcf** 
+  * **429.mcf** 
   * **456.hmmer**
   * **458.sjeng**
   * **470.lbm**  
@@ -46,7 +46,17 @@
 
 ![cacheline](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_2/Step1/Q1/Spacebzip/5.png)  
 
-* Για τα **429.mcf** , **456.hmmer**, **458.sjeng**, **470.lbm**  θα ισχύουν ακριβώς τα ίδια αποτελέσματα αφού τρέχουμε τα benchmarks με το ίδιο configuration script και με τις ίδιες παραμέτρους , **--cpu-type=MinorCPU, --caches, --l2cache**.
+* Για τα **429.mcf** , **456.hmmer**, **458.sjeng**, **470.lbm**  θα ισχύουν ακριβώς τα ίδια αποτελέσματα αφού τρέχουμε τα benchmarks με το ίδιο configuration script και με τις ίδιες παραμέτρους , **--cpu-type=MinorCPU, --caches, --l2cache**.  
+
+### Ερώτημα 2  
+
+Benchmarks | sim time | CPI | L1d overall miss rate | L1i overall miss rate | L2 overall miss rate  
+--- | --- | --- | --- | --- | ---  
+401.bzip2 | 0.161337 | 1.613367 | 0.014683 | 0.000074 |	0.281702 |  
+429.mcf | 0.109125 | 1.091249 | 0.002051 | 0.000037 |	0.724040 |  
+456.hmmer | 0.118453 | 1.184534 | 0.001638 | 0.000205 |	0.082233 |  
+458.sjeng | 0.704063 | 1.176363 | 0.001737 | 0.002895 |	0.987605 |  
+470.lbm | 0.262355 | 3.528624 | 0.062568 | 0.000095 |	0.964146 |  
 
 
 
