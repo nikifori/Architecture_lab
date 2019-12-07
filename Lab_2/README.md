@@ -25,7 +25,21 @@
 <h><p align='center'>
   <b>L1 instruction cache</b>
 </p></h>  
-![L1i]()
+![L1i]()  
+
+<h><p align='center'>
+  <b>L1 data cache</b>
+</p></h>  
+![L1d]()  
+
+<h><p align='center'>
+  <b>L1 cache</b>
+</p></h>  
+![L2]()  
+
+
+
+
 
 
 
