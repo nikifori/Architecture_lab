@@ -64,6 +64,8 @@ Benchmarks | sim time | CPI | L1d overall miss rate | L1i overall miss rate | L2
 
 ![chart](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_2/Step1/Q2/Screenshot_1.png)
 
+Από το γράφημα, είναι φανερό πως τα **benchmark**, _δεν παρουσιάζουν ίδια συμπεριφορά_. Αυτό που φαίνεται να ξεχωρίζει, **αρνητικά, ως προς τη απόδοση**, είναι το **470.lbm** , το οποίο έχει ακρετά **μεγαλύτερο cpi** από τα υπόλοιπα. H διαφορά αυτή, φαίνεται να οφείλεται στα μεγάλα **L1d_cache_miss_rate και L2_overall_miss_rate**. Κάτι ακόμα που ξεχωρίζει, είναι το **simulation time του 458.sjeng**, το οποίο είναι αρκετά μεγαλύτερο από τα υπόλοιπα. Τέλος, παρατηρείται σημαντικά _μεγαλύτερος_ αριθμός **L2_cache_misses απο L1_cache_misses**.
+
 ### Ερώτημα 3   
 
 Σε αυτό το ερώτημα τρέχουμε τα benchmarks για συχνότητα επεξεργαστή **1GHz**. Βλέποντας τα αρχεία stats.txt από κάθε αρχείο παρατηρούμε τα εξής:  
