@@ -66,6 +66,43 @@ Benchmarks | sim time | CPI | L1d overall miss rate | L1i overall miss rate | L2
 
 ### Ερώτημα 3   
 
+Σε αυτό το ερώτημα τρέχουμε τα benchmarks για συχνότητα επεξεργαστή **1GHz**. Βλέποντας τα αρχεία stats.txt από κάθε αρχείο παρατηρούμε τα εξής:  
+  
+Benchmarks | system.clk_domain.clock | system.cpu_clk_domain.clock | 
+--- | --- | --- 
+401.bzip2 | 1000 | 1000 
+429.mcf | 1000 | 1000  
+456.hmmer | 1000 | 1000 
+458.sjeng | 1000 | 1000 
+470.lbm | 1000 | 1000    
+
+Όταν το τρέξαμε στο 1ο ερώτημα για **2GHz** είχαμε τα εξής:  
+
+Benchmarks | system.clk_domain.clock | system.cpu_clk_domain.clock | 
+--- | --- | --- 
+401.bzip2 | 1000 | 500 
+429.mcf | 1000 | 500  
+456.hmmer | 1000 | 500 
+458.sjeng | 1000 | 500 
+470.lbm | 1000 | 500   
+
+> 1000 σημαίνει (1T ticks)/(1000 clock period in ticks)=1GHz
+> 500 σημαίνει (1T ticks)/(500 clock period in ticks)=2GHz
+
+Προφανώς τα αποτελέσματα θα είναι για όλα τα benchmarks ίδια αφού τα τρέχουμε ακριβώς με τα ίδια χαρακτηριστικά. Επίσης, για την δεύτερη περίπτωση βλέπουμε ότι το System clock είναι 1GHz και το CPU clock είναι 2GHz. Το System clock στην ουσία συχρονίζει όλα τα στοιχεία που βρίσκονται πάνω στην motherboard, πχ τον επεξεργαστή με την κύρια μνήμη(RAM) κτλ. Από την άλλη, το CPU clock είναι το ρολόι του επεξεργαστή και μόνο του επεξεργαστή και χρησιμοποιείται μόνο για τον συγχρονισμό μέσα στο τσιπάκι του επεξεργαστή. Σχεδόν πάντα το ρολόι του επεξεργαστή είναι αρκετά μεγαλύτερο απο το System clock.
+
+
+
+
+
+## Βιβλιογραφία  
+
+https://cs.stackexchange.com/questions/32149/what-are-system-clock-and-cpu-clock-and-what-are-their-functions
+  
+  
+
+
+
 
 
 
