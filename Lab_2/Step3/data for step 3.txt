@@ -9,6 +9,7 @@ l2assoc = 16;
 l1cost = 10;
 l2cost = 1;
 cacheline = 256;
+cpi = 1.563040 ;
 
 cost = 102144.761 
 
@@ -21,6 +22,7 @@ l2assoc = 2;
 l1cost = 10;
 l2cost = 1;
 cacheline = 64;
+cpi = 1.634346;
 
 cost = 10727.945
 
@@ -37,6 +39,7 @@ l2assoc = 2;
 l1cost = 10;
 l2cost = 1;
 cacheline = 512;
+cpi = 1.177334;
 
 cost = 54204.354
 
@@ -49,6 +52,7 @@ l2assoc = 2;
 l1cost = 10;
 l2cost = 1;
 cacheline = 32;
+cpi = 1.195885 ;
 
 cost = 7371.541
 
@@ -65,6 +69,7 @@ l2assoc = 4;
 l1cost = 10;
 l2cost = 1;
 cacheline = 2048;
+cpi = 1.374752 ;
 
 cost = 65911.387
 
@@ -77,6 +82,7 @@ l2assoc = 2;
 l1cost = 10;
 l2cost = 1;
 cacheline = 512;
+cpi = 1.492126;
 
 cost = 11857.203 
 
@@ -93,6 +99,7 @@ l2assoc = 8;
 l1cost = 10;
 l2cost = 1;
 cacheline = 512;
+cpi = 1.064488;
 
 cost = 31699.461
 
@@ -121,6 +128,7 @@ l2assoc = 8;
 l1cost = 10;
 l2cost = 1;
 cacheline = 2048;
+cpi = 2.636396;
 
 cost = 121654.081
 
