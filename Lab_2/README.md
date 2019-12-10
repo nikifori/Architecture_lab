@@ -62,7 +62,7 @@ Benchmarks | sim time | CPI | L1d overall miss rate | L1i overall miss rate | L2
 458.sjeng | 0.704063 | 1.176363 | 0.001737 | 0.002895 |	0.987605 |  
 470.lbm | 0.262355 | 3.528624 | 0.062568 | 0.000095 |	0.964146 |   
 
-**εδω θα μπει το διαγραμμα- και τι παρατηρουμε** 
+![chart](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_2/Step1/Q2/Screenshot_1.png)
 
 ### Ερώτημα 3   
 
