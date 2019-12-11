@@ -108,10 +108,227 @@ Benchmarks | 1GHz | 2GHz |
 > CPU clock 1GHz  
 
 Η **διαδικασία επιλογής** των χαρακτηριστηκών του συστήματος, λόγο των πολλών διαθέσιμων επιλογών, πρέπει να **περιοριστεί**. Προς αυτή την κατεύθυνση, **αξιοποιούμε** τα αποτελέσματα απο τα αρχεία **stats.txt , config.ini**. Βλέποντας τα **miss rates, αλλά και το cpi** για κάθε επιλογή, απορρίπτονται κάποιες τιμές. Για παράδειγμα, όταν παρατηρείται μεγάλος αριθμός miss rate στην **L2 Cache**, δοκιμάζουμε να αλλάξουμε το **μέγεθος** και το **assoc**. Σε περίπτωση που, οι αλλαγές, οδηγήσουν σε αύξηση του cpi, απορρίπτεται και η επιλογή της συγκεκριμένης τιμής, αλλά και η συγκεκριμένη διαδρομή, δηλαδή αν αυξήθηκη το cpi, όταν αυξάνουμε το L2 Cache size, τότε δεν δοκιμάζουμε να το αυξήσουμε καθόλου, και κοιτάμε μόνο την μείωση του. Στην περίπτωση που δυο επιλογές έχουν ίδιο αποτέλεσμα, αναλόγως την τιμή της μεταβλητής, αν είναι κοντά στα άνω και κάτω επιτρεπτά όρια, δεν συνεχίζουμε την διερεύνηση. Αργότερα, σε _κενό χρόνο_, υπολογίστηκαν και κάποια **"χαζά"** benchmarks, για την πληρότητα της εργασίας.
-Όλα τα παραπάνω, αποτυπώνονται στα γραφήματα που ακολουθούν.
+Όλα τα παραπάνω, αποτυπώνονται στα γραφήματα που ακολουθούν.  
 
-**εδώ θα μπουν τα γραφήματα, ανα benchmark**
+* Για το **401.bzip2** έχουμε :  
 
+<h><p align='center'>
+  <b>Cacheline size</b>
+</p></h>  
+
+![Cacheline_size](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_2/Step2/Graphs/specbzip/Cacheline_size.png)  
+
+<h><p align='center'>
+  <b>L2 associativity</b>
+</p></h>  
+
+![L2_assoc](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_2/Step2/Graphs/specbzip/L2_assoc.png)  
+
+<h><p align='center'>
+  <b>L2 size</b>
+</p></h>  
+
+![L2_size](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_2/Step2/Graphs/specbzip/L2_size.png)  
+
+<h><p align='center'>
+  <b>L1 data cache associativity</b>
+</p></h>  
+
+![l1d_assoc](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_2/Step2/Graphs/specbzip/l1d_assoc.png)  
+
+<h><p align='center'>
+  <b>L1 data cache size</b>
+</p></h>  
+
+![l1d_size](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_2/Step2/Graphs/specbzip/l1d_size.png)  
+
+<h><p align='center'>
+  <b>L1 instruction cache associativity</b>
+</p></h>  
+
+![l1i_assoc](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_2/Step2/Graphs/specbzip/l1i_assoc.png)  
+
+<h><p align='center'>
+  <b>L1 instruction cache size</b>
+</p></h>  
+
+![l1i_size](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_2/Step2/Graphs/specbzip/l1i_size.png)  
+
+* Για το **429.mcf** έχουμε :  
+
+<h><p align='center'>
+  <b>Cacheline size</b>
+</p></h>  
+
+![Cacheline_size](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_2/Step2/Graphs/specmcf/cacheline_size.png)  
+
+<h><p align='center'>
+  <b>L2 associativity</b>
+</p></h>  
+
+![L2_assoc](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_2/Step2/Graphs/specmcf/l2_assoc.png)  
+
+<h><p align='center'>
+  <b>L2 size</b>
+</p></h>  
+
+![L2_size](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_2/Step2/Graphs/specmcf/l2_size.png)  
+
+<h><p align='center'>
+  <b>L1 data cache associativity</b>
+</p></h>  
+
+![l1d_assoc](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_2/Step2/Graphs/specmcf/l1d_assoc.png)  
+
+<h><p align='center'>
+  <b>L1 data cache size</b>
+</p></h>  
+
+![l1d_size](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_2/Step2/Graphs/specmcf/l1d_size.png)  
+
+<h><p align='center'>
+  <b>L1 instruction cache associativity</b>
+</p></h>  
+
+![l1i_assoc](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_2/Step2/Graphs/specmcf/l1i_assoc.png)  
+
+<h><p align='center'>
+  <b>L1 instruction cache size</b>
+</p></h>  
+
+![l1i_size](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_2/Step2/Graphs/specmcf/l1i_size.png)  
+
+* Για το **456.hmmer** έχουμε :  
+
+<h><p align='center'>
+  <b>Cacheline size</b>
+</p></h>  
+
+![Cacheline_size](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_2/Step2/Graphs/spechmmer/Cacheline_size.png)  
+
+<h><p align='center'>
+  <b>L2 associativity</b>
+</p></h>  
+
+![L2_assoc](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_2/Step2/Graphs/spechmmer/l2_assoc.png)  
+
+<h><p align='center'>
+  <b>L2 size</b>
+</p></h>  
+
+![L2_size](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_2/Step2/Graphs/spechmmer/l2_size.png)  
+
+<h><p align='center'>
+  <b>L1 data cache associativity</b>
+</p></h>  
+
+![l1d_assoc](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_2/Step2/Graphs/spechmmer/l1d_assoc.png)  
+
+<h><p align='center'>
+  <b>L1 data cache size</b>
+</p></h>  
+
+![l1d_size](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_2/Step2/Graphs/spechmmer/l1d_size.png)  
+
+<h><p align='center'>
+  <b>L1 instruction cache associativity</b>
+</p></h>  
+
+![l1i_assoc](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_2/Step2/Graphs/spechmmer/l1i_assoc.png)  
+
+<h><p align='center'>
+  <b>L1 instruction cache size</b>
+</p></h>  
+
+![l1i_size](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_2/Step2/Graphs/spechmmer/L1i_size.png)  
+
+* Για το **458.sjeng** έχουμε :  
+
+<h><p align='center'>
+  <b>Cacheline size</b>
+</p></h>  
+
+![Cacheline_size](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_2/Step2/Graphs/specjeng/cacheline_size.png)  
+
+<h><p align='center'>
+  <b>L2 associativity</b>
+</p></h>  
+
+![L2_assoc](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_2/Step2/Graphs/specjeng/l2_assoc.png)  
+
+<h><p align='center'>
+  <b>L2 size</b>
+</p></h>  
+
+![L2_size](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_2/Step2/Graphs/specjeng/l2_size.png)  
+
+<h><p align='center'>
+  <b>L1 data cache associativity</b>
+</p></h>  
+
+![l1d_assoc](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_2/Step2/Graphs/specjeng/l1d_assoc.png)  
+
+<h><p align='center'>
+  <b>L1 data cache size</b>
+</p></h>  
+
+![l1d_size](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_2/Step2/Graphs/specjeng/l1d_size.png)  
+
+<h><p align='center'>
+  <b>L1 instruction cache associativity</b>
+</p></h>  
+
+![l1i_assoc](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_2/Step2/Graphs/specjeng/l1i_assoc.png)  
+
+<h><p align='center'>
+  <b>L1 instruction cache size</b>
+</p></h>  
+
+![l1i_size](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_2/Step2/Graphs/specjeng/l1i_size.png)  
+
+* Για το **470.lbm** έχουμε :  
+
+<h><p align='center'>
+  <b>Cacheline size</b>
+</p></h>  
+
+![Cacheline_size](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_2/Step2/Graphs/speclibm/Cacheline_size.png)  
+
+<h><p align='center'>
+  <b>L2 associativity</b>
+</p></h>  
+
+![L2_assoc](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_2/Step2/Graphs/speclibm/l2_assoc.png)  
+
+<h><p align='center'>
+  <b>L2 size</b>
+</p></h>  
+
+![L2_size](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_2/Step2/Graphs/speclibm/l2_size.png)  
+
+<h><p align='center'>
+  <b>L1 data cache associativity</b>
+</p></h>  
+
+![l1d_assoc](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_2/Step2/Graphs/speclibm/l1d_assoc.png)  
+
+<h><p align='center'>
+  <b>L1 data cache size</b>
+</p></h>  
+
+![l1d_size](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_2/Step2/Graphs/speclibm/l1d_size.png)  
+
+<h><p align='center'>
+  <b>L1 instruction cache associativity</b>
+</p></h>  
+
+![l1i_assoc](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_2/Step2/Graphs/speclibm/l1i_assoc.png)  
+
+<h><p align='center'>
+  <b>L1 instruction cache size</b>
+</p></h>  
+
+![l1i_size](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_2/Step2/Graphs/speclibm/l1i_size.png)  
 
 
 ## Βιβλιογραφία  
