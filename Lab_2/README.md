@@ -336,7 +336,7 @@ Benchmarks | 1GHz | 2GHz |
 
 Η συνάρτηση κόστους που επιλέχθηκε για την άσκηση περιγράφεται παρακάτω :
 
-### Eval = (L1data_size*L1data_cost*sqrt(L1data_assoc)*log(cacheline_size) + L1instruction_size*L1instruction_cost*sqrt(L1instruction_assoc)*log(cacheline_size) +L2_size*L2_cost*sqrt(L2_assoc)*log(cacheline_size)) * CPI
+### Eval = (L1data_size x L1data_cost x sqrt(L1data_assoc) x log(cacheline_size) + L1instruction_size x L1instruction_cost x sqrt(L1instruction_assoc) x log(cacheline_size) + L2_size x L2_cost x sqrt(L2_assoc) x log(cacheline_size)) x CPI
 
 * **L1_cost** είναι μια τάξη μεγέθους μεγαλύτερο απο το L2_cost, με τιμές 10 και 1 αντίστοιχα.
 * Τα **size** είναι υπολογισμένα σε kB.
