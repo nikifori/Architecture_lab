@@ -365,9 +365,9 @@ Benchmarks | 1GHz | 2GHz |
 
 ## Βιβλιογραφία  
 
-https://cs.stackexchange.com/questions/32149/what-are-system-clock-and-cpu-clock-and-what-are-their-functions  
-https://www.elsevier.com/books-and-journals/book-companion/9780128119051?fbclid=IwAR1XXZMJLhLmCHsQ4KbrzJaMBvWFyK113cian6Et7eJm4_bo0VIPzBHzk60  
-https://www.extremetech.com/extreme/188776-how-l1-and-l2-cpu-caches-work-and-why-theyre-an-essential-part-of-modern-chips
+* https://cs.stackexchange.com/questions/32149/what-are-system-clock-and-cpu-clock-and-what-are-their-functions  
+* https://www.elsevier.com/books-and-journals/book-companion/9780128119051?fbclid=IwAR1XXZMJLhLmCHsQ4KbrzJaMBvWFyK113cian6Et7eJm4_bo0VIPzBHzk60  
+* https://www.extremetech.com/extreme/188776-how-l1-and-l2-cpu-caches-work-and-why-theyre-an-essential-part-of-modern-chips
   
   
 
