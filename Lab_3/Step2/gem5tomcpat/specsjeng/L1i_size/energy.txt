@@ -1,0 +1,6 @@
+Benchmarks         Energy
+
+16	
+32	
+64	
+128	
