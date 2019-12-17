@@ -1,3 +1,4 @@
 Benchmarks	sim_seconds
+1 0.262426
 2	0.262314
 4	0.262106
