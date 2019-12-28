@@ -36,7 +36,7 @@ To **Energy**, υπολογίζεται ως το άθροισμα τις ισχ
 
 ### Specbzip
 
-##### CacheLine size
+* ##### CacheLine size
 
 | Size | Area    | Peak Power |
 |------|---------|------------|
@@ -46,7 +46,7 @@ To **Energy**, υπολογίζεται ως το άθροισμα τις ισχ
 
 ![cacheline](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_3/Step2/Graphs/specbzip/Cacheline_size.png)  
 
-##### L1d Assoc
+* ##### L1d Assoc
 
 | Assoc | Area    | Peak Power |
 |-------|---------|------------|
@@ -58,7 +58,7 @@ To **Energy**, υπολογίζεται ως το άθροισμα τις ισχ
 ![l1d_assoc](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_3/Step2/Graphs/specbzip/l1d_assoc.png)  
 
 
-##### L1i Assoc
+* ##### L1i Assoc
 
 | Assoc | Area    | Peak Power |
 |-------|---------|------------|
@@ -69,7 +69,7 @@ To **Energy**, υπολογίζεται ως το άθροισμα τις ισχ
 
 ![l1i_assoc](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_3/Step2/Graphs/specbzip/l1i_assoc.png)  
 
-##### L2 Assoc
+* ##### L2 Assoc
 
 | Assoc | Area    | Peak Power |
 |-------|---------|------------|
@@ -80,7 +80,7 @@ To **Energy**, υπολογίζεται ως το άθροισμα τις ισχ
 
 ![L2_assoc](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_3/Step2/Graphs/specbzip/L2_assoc.png)  
 
-##### L2 Size 
+* ##### L2 Size 
 
 | Size (MB) | Area    | Peak Power |
 |-------|---------|------------|
@@ -90,7 +90,7 @@ To **Energy**, υπολογίζεται ως το άθροισμα τις ισχ
 
 ![L2_size](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_3/Step2/Graphs/specbzip/L2_size.png)  
 
-##### L1d Size 
+* ##### L1d Size 
 
 | Size (KB) | Area    | Peak Power |
 |-----------|---------|------------|
@@ -101,7 +101,7 @@ To **Energy**, υπολογίζεται ως το άθροισμα τις ισχ
 
 ![l1d_size](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_3/Step2/Graphs/specbzip/l1d_size.png)  
 
-##### L1i Size 
+* ##### L1i Size 
 
 | Size (KB) | Area    | Peak Power |
 |-----------|---------|------------|
@@ -114,7 +114,7 @@ To **Energy**, υπολογίζεται ως το άθροισμα τις ισχ
 
 ### Spechmmer
 
-##### Cacheline Size
+* ##### Cacheline Size
 
 | Size  | Area    | Peak Power |
 |-------|---------|------------|
@@ -124,7 +124,7 @@ To **Energy**, υπολογίζεται ως το άθροισμα τις ισχ
 
 ![cacheline](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_3/Step2/Graphs/spechmmer/Cacheline_size.png)  
 
-##### L1d Assoc
+* ##### L1d Assoc
 
 | Assoc | Area    | Peak Power |
 |-------|---------|------------|
@@ -136,7 +136,7 @@ To **Energy**, υπολογίζεται ως το άθροισμα τις ισχ
 ![l1d_assoc](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_3/Step2/Graphs/spechmmer/l1d_assoc.png)  
 
 
-##### L1i Assoc
+* ##### L1i Assoc
 
 | Assoc | Area    | Peak Power |
 |-------|---------|------------|
@@ -147,7 +147,7 @@ To **Energy**, υπολογίζεται ως το άθροισμα τις ισχ
 
 ![l1i_assoc](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_3/Step2/Graphs/spechmmer/l1i_assoc.png)  
 
-##### L2 Assoc
+* ##### L2 Assoc
 
 | Assoc | Area    | Peak Power |
 |-------|---------|------------|
@@ -158,7 +158,7 @@ To **Energy**, υπολογίζεται ως το άθροισμα τις ισχ
 
 ![L2_assoc](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_3/Step2/Graphs/spechmmer/l2_assoc.png)  
 
-##### L2 Size 
+* ##### L2 Size 
 
 | Size | Area    | Peak Power |
 |------|---------|------------|
@@ -168,7 +168,7 @@ To **Energy**, υπολογίζεται ως το άθροισμα τις ισχ
 
 ![L2_size](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_3/Step2/Graphs/spechmmer/l2_size.png)  
 
-##### L1d Size
+* ##### L1d Size
 
 | Size | Area    | Peak Power |
 |------|---------|------------|
@@ -179,7 +179,7 @@ To **Energy**, υπολογίζεται ως το άθροισμα τις ισχ
 
 ![l1d_size](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_3/Step2/Graphs/spechmmer/l1d_size.png)  
 
-##### L1i Size
+* ##### L1i Size
 
 | Size | Area    | Peak Power |
 |------|---------|------------|
@@ -192,7 +192,7 @@ To **Energy**, υπολογίζεται ως το άθροισμα τις ισχ
 
 ### Specsjeng
 
-##### Cacheline Size
+* ##### Cacheline Size
 
 | Size | Area    | Peak Power |
 |------|---------|------------|
@@ -202,7 +202,7 @@ To **Energy**, υπολογίζεται ως το άθροισμα τις ισχ
 
 ![cacheline](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_3/Step2/Graphs/specjeng/cacheline_size.png)  
 
-##### L1d Assoc
+* ##### L1d Assoc
 
 | Assoc | Area    | Peak Power |
 |-------|---------|------------|
@@ -214,7 +214,7 @@ To **Energy**, υπολογίζεται ως το άθροισμα τις ισχ
 ![l1d_assoc](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_3/Step2/Graphs/specjeng/l1d_assoc.png)  
 
 
-##### L1i Assoc
+* ##### L1i Assoc
 
 | Assoc | Area    | Peak Power |
 |-------|---------|------------|
@@ -225,7 +225,7 @@ To **Energy**, υπολογίζεται ως το άθροισμα τις ισχ
 
 ![l1i_assoc](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_3/Step2/Graphs/specjeng/l1i_assoc.png)  
 
-##### L2 Assoc
+* ##### L2 Assoc
 
 | Assoc | Area    | Peak Power |
 |-------|---------|------------|
@@ -236,7 +236,7 @@ To **Energy**, υπολογίζεται ως το άθροισμα τις ισχ
 
 ![L2_assoc](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_3/Step2/Graphs/specjeng/l2_assoc.png)  
 
-##### L2 Size
+* ##### L2 Size
 
 
 | Size | Area    | Peak Power |
@@ -247,7 +247,7 @@ To **Energy**, υπολογίζεται ως το άθροισμα τις ισχ
 
 ![L2_size](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_3/Step2/Graphs/specjeng/l2_size.png)  
 
-##### L1d Size
+* ##### L1d Size
 
 | Size | Area    | Peak Power |
 |------|---------|------------|
@@ -258,7 +258,7 @@ To **Energy**, υπολογίζεται ως το άθροισμα τις ισχ
 
 ![l1d_size](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_3/Step2/Graphs/specjeng/l1d_size.png)  
 
-##### L1i Size
+* ##### L1i Size
 
 | Size | Area    | Peak Power |
 |------|---------|------------|
@@ -272,7 +272,7 @@ To **Energy**, υπολογίζεται ως το άθροισμα τις ισχ
 
 ### Speclibm
 
-##### Cacheline Size
+* ##### Cacheline Size
 
 | Size | Area    | Peak Power |
 |------|---------|------------|
@@ -282,7 +282,7 @@ To **Energy**, υπολογίζεται ως το άθροισμα τις ισχ
 
 ![cacheline](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_3/Step2/Graphs/speclibm/Cacheline_size.png)  
 
-##### L1d Assoc
+* ##### L1d Assoc
 
 | Assoc | Area    | Peak Power |
 |-------|---------|------------|
@@ -293,7 +293,7 @@ To **Energy**, υπολογίζεται ως το άθροισμα τις ισχ
 
 ![l1d_assoc](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_3/Step2/Graphs/speclibm/l1d_assoc.png)  
 
-##### L1i Assoc
+* ##### L1i Assoc
 
 | Assoc | Area    | Peak Power |
 |-------|---------|------------|
@@ -304,7 +304,7 @@ To **Energy**, υπολογίζεται ως το άθροισμα τις ισχ
 
 ![l1i_assoc](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_3/Step2/Graphs/speclibm/l1i_assoc.png)  
 
-##### L2 Assoc
+* ##### L2 Assoc
 
 | Assoc | Area    | Peak Power |
 |-------|---------|------------|
@@ -315,7 +315,7 @@ To **Energy**, υπολογίζεται ως το άθροισμα τις ισχ
 
 ![L2_assoc](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_3/Step2/Graphs/speclibm/l2_assoc.png)  
 
-##### L2 Size
+* ##### L2 Size
 
 | Size | Area    | Peak Power |
 |------|---------|------------|
@@ -325,7 +325,7 @@ To **Energy**, υπολογίζεται ως το άθροισμα τις ισχ
 
 ![L2_size](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_3/Step2/Graphs/speclibm/l2_size.png)  
 
-##### L1d Size
+* ##### L1d Size
 
 | Size | Area    | Peak Power |
 |------|---------|------------|
@@ -336,7 +336,7 @@ To **Energy**, υπολογίζεται ως το άθροισμα τις ισχ
 
 ![l1d_size](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_3/Step2/Graphs/speclibm/l1d_size.png)  
 
-##### L1i Size
+* ##### L1i Size
 
 | Size | Area    | Peak Power |
 |------|---------|------------|
@@ -349,7 +349,7 @@ To **Energy**, υπολογίζεται ως το άθροισμα τις ισχ
 
 ### Specmcf
 
-##### Cacheline Size
+* ##### Cacheline Size
 
 | Size | Area    | Peak Power |
 |------|---------|------------|
@@ -359,7 +359,7 @@ To **Energy**, υπολογίζεται ως το άθροισμα τις ισχ
 
 ![cacheline](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_3/Step2/Graphs/specmcf/cacheline_size.png)  
 
-##### L1d Assoc
+* ##### L1d Assoc
 
 | Assoc | Area    | Peak Power |
 |-------|---------|------------|
@@ -370,7 +370,7 @@ To **Energy**, υπολογίζεται ως το άθροισμα τις ισχ
 
 ![l1d_assoc](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_3/Step2/Graphs/specmcf/l1d_assoc.png)  
 
-##### L1i Assoc
+* ##### L1i Assoc
 
 | Assoc | Area    | Peak Power |
 |-------|---------|------------|
@@ -381,7 +381,7 @@ To **Energy**, υπολογίζεται ως το άθροισμα τις ισχ
 
 ![l1i_assoc](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_3/Step2/Graphs/specmcf/l1i_assoc.png)  
 
-##### L2 Assoc
+* ##### L2 Assoc
 
 | Assoc | Area    | Peak Power |
 |-------|---------|------------|
@@ -392,7 +392,7 @@ To **Energy**, υπολογίζεται ως το άθροισμα τις ισχ
 
 ![L2_assoc](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_3/Step2/Graphs/specmcf/l2_assoc.png)  
 
-##### L2 Size
+* ##### L2 Size
 
 | Size | Area    | Peak Power |
 |------|---------|------------|
@@ -402,7 +402,7 @@ To **Energy**, υπολογίζεται ως το άθροισμα τις ισχ
 
 ![L2_size](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_3/Step2/Graphs/specmcf/l2_size.png)  
 
-##### L1d Size
+* ##### L1d Size
 
 | Size | Area    | Peak Power |
 |------|---------|------------|
@@ -413,7 +413,7 @@ To **Energy**, υπολογίζεται ως το άθροισμα τις ισχ
 
 ![l1d_size](https://github.com/nikifori/Architecture_lab1/blob/master/Lab_3/Step2/Graphs/specmcf/l1d_size.png)  
 
-##### L1i Size
+* ##### L1i Size
 
 | Size | Area    | Peak Power |
 |------|---------|------------|
